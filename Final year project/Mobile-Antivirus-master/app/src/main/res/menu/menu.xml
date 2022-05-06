@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Scan Your Device"
+        android:id="@+id/scanyourDevice"
+        app:showAsAction="never"/>
+    <item
+        android:title="Device Locator (Geolocation)"
+        android:id="@+id/locatedevice"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Web Protection"
+        android:id="@+id/webprotection"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="User Setting"
+        android:id="@+id/usersetting"
+        app:showAsAction="never"/>
+
+</menu>

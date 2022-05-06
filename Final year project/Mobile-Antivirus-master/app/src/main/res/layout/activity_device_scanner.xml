@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borderdesign"
+    tools:context=".DeviceScanner">
+
+    <ImageView
+        android:id="@+id/shield"
+        android:layout_width="264dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="147dp"
+        android:contentDescription="@string/protectionShield"
+        android:src="@raw/goldshield1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="564dp"
+        android:src="@drawable/images32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ellipse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ellipse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/protectionButton"
+        android:layout_width="190dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="403dp"
+        android:background="@drawable/btn_shield_toggle"
+        android:textColor="@drawable/btn_shield_toggle"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="200dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/roundscanbutton"
+        android:drawablePadding="-30dp"
+        android:gravity="center"
+        android:paddingStart="20sp"
+        android:paddingEnd="0sp"
+        android:text="@string/scan_device"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/lastScanText"
+        android:layout_width="121dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="98dp"
+        android:text="   last_scan"
+        android:textColor="#073055"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/lastScanValueText"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="618dp"
+        android:layout_marginBottom="98dp"
+        android:gravity="left"
+        android:text="   No History"
+        android:textColor="#073055"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <Spinner
+        android:id="@+id/dropdown"
+        android:layout_width="344dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="240dp"
+        android:popupBackground="@color/lighter_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <TextView
+        android:id="@+id/dropdown_title"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="280dp"
+        android:text="Select Scanning Methods below:"
+        android:textColor="#073055"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/drawable-mdpi/back_arrow.xml" value="0.1" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/drawable-mdpi/ic_login_back.xml" value="0.1" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/drawable-v24/roundscanbutton.xml" value="0.206" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/drawable/progress_bg.xml" value="0.206" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/drawable/splash_background.xml" value="0.206" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_device_locator.xml" value="0.15" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_device_scanner.xml" value="0.2" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_files_scanner.xml" value="0.22447916666666667" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_help.xml" value="0.10916919959473151" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_permission_tracking.xml" value="0.1" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_signature_tracking.xml" value="0.15" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_starter.xml" value="0.18" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_user_setting.xml" value="0.125" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/activity_web_protection.xml" value="0.16" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/change_password.xml" value="0.18" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/list_app_control.xml" value="0.22447916666666667" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/list_dropdown_text.xml" value="0.22447916666666667" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/layout/list_permission.xml" value="0.22447916666666667" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/mipmap-anydpi-v26/fulltitle.xml" value="0.1045" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
+        <entry key="..\:/Final year project/Mobile-Antivirus-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
